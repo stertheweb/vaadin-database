@@ -53,7 +53,7 @@ public class MyUI extends UI {
 		filtering.addComponents(filterText, clearFilterTextButton);
 		filtering.setStyleName(ValoTheme.LAYOUT_COMPONENT_GROUP);
 
-		Button addFlightButton = new Button("Add new flight");
+		Button addFlightButton = new Button("Add New Flight");
 		addFlightButton.addClickListener(e -> {
 			grid.asSingleSelect().clear();
 			form.setFlight(new Flight());

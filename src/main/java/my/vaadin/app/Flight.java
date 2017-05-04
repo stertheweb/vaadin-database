@@ -92,9 +92,9 @@ public class Flight implements Serializable, Cloneable {
 
 	@Override
 	public int hashCode() {
-		int hash = 5;
-		hash = 43 * hash + (id == null ? 0 : id.hashCode());
-		return hash;
+		int hashCode = 5;
+		hashCode = 43 * hashCode + (id == null ? 0 : id.hashCode());
+		return hashCode;
 	}
 	
 	@Override

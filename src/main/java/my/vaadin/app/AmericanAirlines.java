@@ -124,7 +124,7 @@ public class AmericanAirlines {
 					"Dallas-FtWorth LasVegas", "Phoenix LasVegas", "Charlotte Munich",
 					"Philadelphia Munich", "Philadelphia Charlotte", "Charlotte Phoenix",
 					"Dallas-FtWorth Washington-Reagan", "Dallas-FtWorth Miami", "Phoenix Portland",
-			"Dallas-FtWorth NewYork-JFK" };
+			"Dallas-FtWorth NewYork-JFK", "Dallas-FtWorth Boston", "Phoenix Boston"};
 			Random random = new Random(0);
 			for (String route : routes) {
 				String[] split = route.split(" ");

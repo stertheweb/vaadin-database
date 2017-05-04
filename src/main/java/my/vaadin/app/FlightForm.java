@@ -14,7 +14,7 @@ public class FlightForm extends FormLayout {
 
 	private TextField origin = new TextField("Origin");
 	private TextField destination = new TextField("Destination");
-	private TextField flightNumber = new TextField("Flight Number");
+	private TextField flightNumber = new TextField("Flight No");
 	private NativeSelect<FlightStatus> status = new NativeSelect<>("Flight Status");
 	private DateField flightDate = new DateField("Flight Date");
 	private Button save = new Button("Save");
