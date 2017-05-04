@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Vaadin Tutorial application
 ==============
 
@@ -55,3 +56,7 @@ Using Vaadin pre-releases
 
 If Vaadin pre-releases are not enabled by default, use the Maven parameter
 "-P vaadin-prerelease" or change the activation default value of the profile in pom.xml .
+=======
+# vaadin-database
+Sample flight database I made in Vaadin for American Airlines.
+>>>>>>> branch 'master' of https://github.com/stertheweb/vaadin-database.git
